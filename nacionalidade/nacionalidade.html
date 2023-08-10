@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./nacionalidade.css">
+    <title>indentificador de nacionalidade</title>
+</head>
+<body>
+    <div class="corpo">
+        <h1>Identificador de Nacionalidade</h1>
+
+        <form class="formulario" onsubmit="identificarNacionalidade(event)">
+            <label for="pais">Digite o país onde nasceu:</label>
+            <input type="text" name="pais" id="pais" required>
+
+            <input type="submit" value="Verificar">
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+    <script src="./js/nacionalidade.js"></script>
+</body>
+</html>

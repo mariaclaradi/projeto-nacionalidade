@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="identificador.css">
+    <title>Identificador de idade e sexo</title>
+</head>
+<body>
+    <h1>indentificador</h1>
+    <div>
+        <p>Digite o ano atual</p>
+        <input type="number" name="ano_atual" id="ano_atual">
+        <p>Digite seu nascimento</p>
+        <input type="number" name="ano_nascimento" id="ano_nascimento">
+    </div>
+    <div>
+        <label for="genero" id="genero">Genero</label>
+        <select name="genero" id="genero">
+        <option>Masculino</option>
+        <option>Feminino</option>
+        </select>
+    </div>
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="resultado"></div>
+    <script src="/verificador de idade e sexo/js/identificador.js"></script>
+</body>
+</html>
